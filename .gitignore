@@ -1,0 +1,33 @@
+# ===============================
+# LocalWP / WordPress Ignore List
+# ===============================
+
+# WordPress uploads & cache
+app/public/wp-content/uploads/
+app/public/wp-content/cache/
+app/public/wp-content/upgrade/
+
+# WordPress core (管理対象外にする場合)
+app/public/wp-admin/
+app/public/wp-includes/
+
+# LocalWP specific
+conf/
+logs/
+app/sql/
+*.sql
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Node dependencies (テーマやプラグインで使う場合)
+node_modules/
+
+# Environment / secret files
+.env
+*.env
